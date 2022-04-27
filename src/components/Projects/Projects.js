@@ -57,19 +57,21 @@ const Projects = () => (
               </TagList>
             </div>
             <div style={{ padding: "0 20px", margin: "25px 0" }}>
-              <Link href={p.visit}>
-                <a
-                  style={{
-                    background: "hsl(232.7,27.3%,23.7%)",
-                    color: "#fff",
-                    padding: "0.8rem 1rem",
-                    borderRadius: "5px",
-                    marginRight: "15px",
-                  }}
-                >
-                  Website
-                </a>
-              </Link>
+              {p.visit && (
+                <Link href={p.visit}>
+                  <a
+                    style={{
+                      background: "hsl(232.7,27.3%,23.7%)",
+                      color: "#fff",
+                      padding: "0.8rem 1rem",
+                      borderRadius: "5px",
+                      marginRight: "15px",
+                    }}
+                  >
+                    Website
+                  </a>
+                </Link>
+              )}
 
               <Link href={p.source}>
                 <a
@@ -82,7 +84,7 @@ const Projects = () => (
                   }}
                   target="_blank"
                 >
-                  Source code
+                  Source
                 </a>
               </Link>
             </div>

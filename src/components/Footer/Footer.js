@@ -1,5 +1,5 @@
 import React from "react";
-import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from "react-icons/ai";
+import { RiDribbbleFill, RiGithubFill, RiLinkedinFill } from "react-icons/ri";
 
 import { SocialIcons } from "../Header/HeaderStyles";
 import {
@@ -24,7 +24,7 @@ const Footer = () => {
         </LinkColumn>
         <LinkColumn>
           <LinkTitle>Email</LinkTitle>
-          <LinkItem href="mailto:contact@jsmastery.com">
+          <LinkItem href="mailto:tsijones0@gmail.com">
             tsijones0@gmail.com
           </LinkItem>
         </LinkColumn>
@@ -34,14 +34,17 @@ const Footer = () => {
           <Slogan>Made with ❤ by Tansi Jones</Slogan>
         </CompanyContainer>
         <SocialContainer>
-          <SocialIcons href="https://github.com/Tansi-Jones">
-            <AiFillGithub size="3rem" />
+          <SocialIcons href="https://github.com/Tansi-Jones" target="_blank">
+            <RiGithubFill size="3rem" />
           </SocialIcons>
-          <SocialIcons href="https://www.linkedin.com/in/tansi-jones/">
-            <AiFillLinkedin size="3rem" />
+          <SocialIcons
+            href="https://www.linkedin.com/in/tansi-jones/"
+            target="_blank"
+          >
+            <RiLinkedinFill size="3rem" />
           </SocialIcons>
-          <SocialIcons href="https://google.com">
-            <AiFillInstagram size="3rem" />
+          <SocialIcons href="https://dribbble.com/Tansi-Jones" target="_blank">
+            <RiDribbbleFill size="3rem" />
           </SocialIcons>
         </SocialContainer>
       </SocialIconsContainer>
