@@ -50,7 +50,7 @@ export const projects = [
     image: "/images/1.png",
     tags: ["Next", "Tailwind", "MongoDB"],
     source: "https://google.com",
-    // visit: "https://google.com",
+    visit: "https://google.com",
     id: 3,
   },
 ];
