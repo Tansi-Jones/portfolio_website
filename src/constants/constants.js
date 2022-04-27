@@ -15,7 +15,7 @@ export const projects = [
     tags: ["Next", "Tailwind"],
     source: "https://airbnbclone-chi.vercel.app/",
     visit: "https://airbnbclone-chi.vercel.app/",
-    id: 4,
+    id: 1,
   },
   {
     title: "The Weather",
@@ -24,7 +24,7 @@ export const projects = [
     tags: ["Next", "Tailwind"],
     source: "https://github.com/Tansi-Jones/Weather-App",
     visit: "https://the-weather-gold.vercel.app/",
-    id: 5,
+    id: 2,
   },
   {
     title: "Apartmen",
@@ -33,7 +33,7 @@ export const projects = [
     tags: ["Next", "Tailwind"],
     source: "https://github.com/Tansi-Jones/Apartmen",
     visit: "https://apartmen.vercel.app/",
-    id: 6,
+    id: 3,
   },
   {
     title: "Portfolio",
@@ -42,7 +42,15 @@ export const projects = [
     tags: ["Next", "Tailwind"],
     source: "https://github.com/AlphonseBrandon/Alphonse-Portfolio",
     visit: "https://alphonse.vercel.app/",
-    id: 6,
+    id: 4,
+  },
+  {
+    title: "ForosPay",
+    description: "",
+    image: "/images/7.png",
+    tags: ["Figma"],
+    source: "https://dribbble.com/shots/18120407-Foros-Pay",
+    id: 5,
   },
   {
     title: "Very Best",
@@ -51,7 +59,15 @@ export const projects = [
     tags: ["Next", "Tailwind", "MongoDB"],
     source: "https://github.com/Tansi-Jones/Very-Best",
     visit: "https://very-best.vercel.app/",
-    id: 3,
+    id: 6,
+  },
+  {
+    title: "Women Lift",
+    description: "",
+    image: "/images/8.png",
+    tags: ["Figma"],
+    source: "https://dribbble.com/shots/18120476-Women-Lift",
+    id: 7,
   },
 ];
 
