@@ -27,11 +27,11 @@ const Home = () => {
           }}
         >
           <RiInformationFill
-            style={{ fontSize: "2.3rem", marginRight: "1rem" }}
+            style={{ fontSize: "2rem", marginRight: "1rem" }}
           />
           <span>
             A complete redesign of my portfolio will be available in a few
-            months, this one is temporarily
+            months.
           </span>
         </p>
       </div>
