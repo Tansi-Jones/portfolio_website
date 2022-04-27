@@ -68,7 +68,7 @@ const Timeline = () => {
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
         I'm a developer with 5 years of experience and an AWS Solutions
-        Architech associate with 2 years of experience
+        Architech associate with 2 years of experience.
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
