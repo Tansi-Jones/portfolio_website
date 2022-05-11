@@ -31,7 +31,7 @@ const Home = () => {
           />
           <span>
             A complete redesign of my portfolio will be available in a few
-            months.
+            months with new projects.
           </span>
         </p>
       </div>
