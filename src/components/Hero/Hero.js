@@ -16,7 +16,7 @@ const Hero = (props) => (
           Hi, <br />
           I'm Tansi Jones
         </SectionTitle>
-        <SectionText>A Web Developer and Cloud Architech</SectionText>
+        <SectionText>A Software Developer and UI Designer</SectionText>
         <Button onClick={props.handleClick}>
           <a style={{ color: "#fff" }} href="mailto:tsijones0@gmail.com">
             Let's Connect
