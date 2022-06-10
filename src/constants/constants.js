@@ -13,8 +13,8 @@ export const projects = [
     description: "",
     image: "/images/3.png",
     tags: ["Next", "Tailwind"],
-    source: "https://airbnbclone-chi.vercel.app/",
-    visit: "https://airbnbclone-chi.vercel.app/",
+    source: "https://github.com/Tansi-Jones/Airclone",
+    visit: "https://airbnbclone-tansi-jones.vercel.app/",
     id: 1,
   },
   {
