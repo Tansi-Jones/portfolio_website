@@ -30,7 +30,7 @@ const Home = () => {
             style={{ fontSize: "2rem", marginRight: "1rem" }}
           />
           <span>
-            A complete redesign of my portfolio will be available in a few
+            A complete redesign of this portfolio will be available in a few
             months with new projects.
           </span>
         </p>
